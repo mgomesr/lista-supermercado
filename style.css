@@ -21,6 +21,7 @@ header{
     flex: 1;
     height: 25px;
     padding-left: 10px;
+    width: 50%;
     margin-right: 5px;
 }
 
@@ -74,22 +75,24 @@ button{
 
 @media screen and (max-width: 480px) {
     .lista-cadastro{
-        display: block;
+        display: inline-block;
         margin: 20px 0;
         padding: 0 20px;
+        text-align: center;
     }
     
     .lista-cadastro input[type='text']{
         height: 25px;
+        width: 45%;
         padding-left: 10px;
-        margin-right: 5px;
         margin-bottom: 5px;
     }
     
     .lista-cadastro input[type='number']{
         height: 25px;
+        width: 45%;
         padding-left: 10px;
-        margin-right: 5px;
-    }    
+        margin-bottom: 8px;
+    }
     
 }
